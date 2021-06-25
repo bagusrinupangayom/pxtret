@@ -1,0 +1,242 @@
+/* For Header */
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+
+/* Navbar */
+.navbar a {
+    color: black;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar-light:hover {
+    color: black;
+}
+
+.navbar-brand {
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+.nav-link {
+    margin-right: 18px;
+}
+
+
+/* Header */
+.header {
+    background-color: gold;
+    padding: 16rem 0;
+    text-align: center;
+    color: black;
+}
+
+.txtHeader {
+    margin-top: -6rem;
+}
+
+.header h1 {
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bold;
+    font-size: 6rem;
+    letter-spacing: 22px;
+}
+
+.header h4 {
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: 600;
+    letter-spacing: 12px;
+}
+
+/* Header - About Us */
+.header p {
+    font-size: 16px;
+    line-height: 3rem;
+}
+
+
+/* Image */
+.image1 {
+    background-image: url('/img/bromo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 54rem;
+}
+
+.image2 {
+    background-image: url('/img/PangalenganBandung.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 54rem;
+}
+
+.image3 {
+    background-image: url('/img/DanauToba_NorthSumatera.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 54rem;
+}
+
+.image4 {
+    background-image: url('/img/BandarLampungCity.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 54rem;
+}
+
+.image5 {
+    background-image: url('/img/MountRinjani.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 54rem;
+}
+
+.btnView h2 {
+    margin-top: 38rem;
+    display: block;
+    color: white;
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.btnView a {
+    display: inline-block;
+    margin-top: 4rem;
+    padding: 10px 38px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 25px;
+    transition: .3s;
+    text-align: center;
+}
+
+.btnView a:hover {
+    background-color: gold;
+}
+
+
+/* Contact Us */
+.contactUs {
+    background-color: gold;
+    padding: 16rem 0;
+    text-align: center;
+    color: black;
+}
+
+.txtContact {
+    margin-top: -6rem;
+}
+
+.contactUs h1 {
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 22px;
+}
+
+.txtContact a {
+    display: inline-block;
+    margin-top: 4rem;
+    padding: 10px 38px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 25px;
+    transition: .3s;
+    text-align: center;
+}
+
+.txtContact a:hover {
+    background-color: #ddd;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #111111;
+    color: white;
+}
+
+.footer .coll {
+    margin-top: 3rem;
+}
+
+.bi {
+    margin-right: 20px;
+    fill: gold;
+}
+
+.bi:hover {
+    fill: goldenrod;
+}
+
+
+/* Tablet */
+@media (max-width: 1199.98px) {
+
+    /* Header */
+    .header {
+        padding: 26rem 0;
+    }
+
+    .header h1 {
+        font-size: 4rem;
+        letter-spacing: 12px;
+    }
+
+
+    /* Contact Us */
+    .contactUs {
+        padding: 16rem 0;
+    }
+
+    .contactUs h1 {
+        font-size: 34px;
+        letter-spacing: 6px;
+        margin-top: 4rem;
+    }
+}
+
+/* --------------------------------------------- */
+
+/* Mobile */
+@media (max-width: 575.98px) {
+
+    /* Header */
+    .header {
+        padding: 22rem 0;
+    }
+
+    .header h1 {
+        font-size: 24px;
+        letter-spacing: 6px;
+    }
+
+    .header h4 {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 6px;
+    }
+
+
+    /* Contact Us */
+    .contactUs {
+        padding: 16rem 0;
+    }
+
+    .contactUs h1 {
+        font-size: 24px;
+        letter-spacing: 6px;
+    }
+}

@@ -58,6 +58,17 @@
     line-height: 3rem;
 }
 
+/* Header - Contact Us */
+.header a {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 10px 38px;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
 
 /* Image */
 .image1 {

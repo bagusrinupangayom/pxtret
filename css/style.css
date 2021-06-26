@@ -196,6 +196,13 @@
 /* Tablet */
 @media (max-width: 1199.98px) {
 
+    /* Navbar */
+    .navbar-nav a {
+        margin-top: 8px;
+        text-align: right;
+    }
+
+
     /* Header */
     .header {
         padding: 26rem 0;
@@ -224,6 +231,13 @@
 /* Mobile */
 @media (max-width: 575.98px) {
 
+    /* Navbar */
+    .navbar-nav a {
+        margin-top: 8px;
+        text-align: right;
+    }
+
+
     /* Header */
     .header {
         padding: 22rem 0;
@@ -238,6 +252,14 @@
         font-size: 18px;
         font-weight: 600;
         letter-spacing: 6px;
+    }
+
+    /* Header - Contact Us */
+    .header a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        letter-spacing: 0;
     }
 
 
